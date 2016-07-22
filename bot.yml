@@ -1,0 +1,24 @@
+name: GithubNotifier
+author: Dalan The Miller
+email: dalanmiller@rethinkdb.com
+description: A simple bot for Github.
+# avatar: images/avatar.jpg
+# background: images/background.png
+# config:
+#   - name: OPTION
+#     friendly_name: Some Unnecessary Option
+#     info: This is an unnecessary option
+#     default: the default value
+#   - name: SECRET
+#     friendly_name: Shhhh
+#     info: This is an secret option
+#     type: secret
+#     default: not secret though
+#     global: true
+# screenshots:
+#   - screenshot: images/screenshot1.png
+#   - screenshot: images/screenshot2.jpg
+slackscopes:
+  - bot
+  - commands
+  # - incoming-webhook
